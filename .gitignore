@@ -1,0 +1,7 @@
+.vscode/
+env/
+build/
+dist/
+*.egg-info
+deepdanboorutag/__pychache__/
+deepdanboorutag/model/
