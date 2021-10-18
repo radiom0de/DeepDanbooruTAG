@@ -10,9 +10,9 @@ Interface for pre-trained machine learning model [DeepDanbooru](https://github.c
 python setup.py
 ```
 
-> Warning: The script will download the model on the first run
-
 ## Usage
+
+> Warning: The script will download the model on the first run
 
 **From console:**
 
