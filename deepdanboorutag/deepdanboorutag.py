@@ -21,8 +21,10 @@ import config
 from docopt import docopt
 
 
-def get_tags(model, path, verbose=True):
+def get_tags(path, model=None, verbose=True):
     tags = {}
+    if (model == None):
+        model.DeepdanbooruModel()
     if (os.path.isfile(path)):
         tags[path] = model.get_tags(path)
     if (os.path.isdir(path)):
@@ -102,6 +104,6 @@ if __name__ == "__main__":
     # Return string with image paths and tags
     else:
         model = model.DeepdanbooruModel()
-        tags = get_tags(model, os.path.abspath(path), verbose=verbose)
+        tags = get_tags(os.path.abspath(path), model, verbose=verbose)
         print(tags)
 

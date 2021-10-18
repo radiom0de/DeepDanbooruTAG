@@ -14,6 +14,8 @@ python setup.py
 
 ## Usage
 
+**From console:**
+
 ```
 Usage:
   deepdanboorutag.py [-j] [--quiet | --verbose] <path_to_image_or_directory>
@@ -26,4 +28,12 @@ Options:
   -j --json     Place json file in image folder
   --quiet       Print less text
   --verbose     Print more text [default: True]
+```
+
+**As module:**
+
+```python
+from deepdanboorutag import deepdanboorutag
+
+deepdanboorutag.get_tags(path)
 ```
