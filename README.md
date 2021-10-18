@@ -35,5 +35,5 @@ Options:
 ```python
 from deepdanboorutag import deepdanboorutag
 
-deepdanboorutag.get_tags(path)
+tags = deepdanboorutag.get_tags(path_to_image)
 ```
