@@ -2,7 +2,7 @@
 
 ![deepdanbooru example](https://lainsafe.delegao.moe/files/163459649453158.png)
 
-Interface for pre-trained machine learning model “Deepdanbooru” with ability to read different formats of images and save the given data in json file. It also can be used as python module.
+Interface for pre-trained machine learning model [Deepdanbooru](https://github.com/KichangKim/DeepDanbooru) with ability to read different formats of images and save the given data in json file. It also can be used as python module.
 
 ## Installation
 
